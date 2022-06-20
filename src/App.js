@@ -1,3 +1,4 @@
+import Dictionary from "./Dictionary";
 import "./App.css";
 
 export default function App() {
@@ -6,6 +7,9 @@ export default function App() {
       <header className="App-header">
         <h1>Dictionary</h1>
       </header>
+      <main className="App-main">
+        <Dictionary />
+      </main>
 
       <footer className="App-footer">
         This Dictionary App was coded by{" "}
