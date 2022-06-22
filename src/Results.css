@@ -1,0 +1,9 @@
+.Results {
+    max-width: 500px;
+}
+
+.Results h2{
+    color:#ED4856;
+    font-size: 36px;
+    margin-bottom: 20px;
+}

@@ -1,4 +1,14 @@
+
 .Dictionary form {
-  margin: 50px auto;
+  margin: 40px auto;
   text-align: center;
+}
+
+.Dictionary input{
+    width: 340px;
+    padding: 7px 15px;
+    border: 1px solid #878787;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 18px;
 }
