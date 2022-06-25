@@ -20,6 +20,10 @@
   font-size: 12px;
 }
 
+.App footer a {
+  color: #ff848e;
+}
+
 @media (max-width: 768px) {
   .App {
     margin: 30px 20px;
