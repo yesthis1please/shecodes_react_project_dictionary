@@ -30,6 +30,16 @@ export default function Meaning(props) {
           );
         }
       })}
+      <div className="Synonyms">
+        {props.meaning.synonyms.map(function(synonym, index){
+          return(
+            <ul className="Synonyms-list" key={index}>
+              <li>{synonym}</li>
+            </ul>
+          );
+        })}
+
+      </div>
     </div>
   );
 }
