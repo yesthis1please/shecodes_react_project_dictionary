@@ -5,5 +5,14 @@
 .Results h2{
     color:#ED4856;
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+.Results .Results-Phonetics-list{
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 0;
+    font-size: 20px;
+    color: #878787;
 }

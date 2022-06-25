@@ -28,6 +28,8 @@ export default function App() {
         >
           Github
         </a>
+        <br />
+        Icons by <a href="https://icons8.com/" target="_blank" rel="noopener noreferrer">Icons8</a>
       </footer>
     </div>
   );
