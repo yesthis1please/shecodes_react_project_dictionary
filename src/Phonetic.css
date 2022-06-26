@@ -9,4 +9,5 @@
 
 .Phonetic .Phonetic-audio-icon:hover{
     width: 35px;
+    cursor: pointer;
 }

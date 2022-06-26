@@ -4,20 +4,23 @@ import "./Phonetic.css";
 
 export default function Phonetic(props) {
   console.log(props.phonetic);
+
+  function playAudio(event) {
+    let audio = props.phonetic.audio;
+    const audioSound = new Audio(audio);
+    audioSound.play();
+  }
+
   if (props.phonetic.audio) {
     return (
       <li className="Phonetic">
-        <a
-          href={props.phonetic.audio}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src={audio}
-            className="Phonetic-audio-icon"
-            alt="Phonetic audio icon"
-          />
-        </a>
+        <img
+          src={audio}
+          className="Phonetic-audio-icon"
+          alt="Phonetic audio icon"
+          onClick={playAudio}
+        />
+
         <span>{props.phonetic.text}</span>
       </li>
     );
