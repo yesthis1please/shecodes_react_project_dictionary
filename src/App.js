@@ -1,4 +1,5 @@
 import Dictionary from "./Dictionary";
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import "./App.css";
 
 export default function App() {
@@ -29,7 +30,10 @@ export default function App() {
           Github
         </a>
         <br />
-        Icons by <a href="https://icons8.com/" target="_blank" rel="noopener noreferrer">Icons8</a>
+        Icons by{" "}
+        <a href="https://icons8.com/" target="_blank" rel="noopener noreferrer">
+          Icons8
+        </a>
       </footer>
     </div>
   );

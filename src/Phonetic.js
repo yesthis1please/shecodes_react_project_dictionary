@@ -3,8 +3,6 @@ import audio from "./images/audio.png";
 import "./Phonetic.css";
 
 export default function Phonetic(props) {
-  console.log(props.phonetic);
-
   function playAudio(event) {
     let audio = props.phonetic.audio;
     const audioSound = new Audio(audio);
